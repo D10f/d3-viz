@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Test Project</title>
+  </head>
+  <body>
+
+    <header class="project__header">
+      <h2 class="project__title">Project One</h2>
+      <p class="project__subtitle">Making a dynamic donut chart</p>
+    </header>
+
+    <section class="section">
+      <form class="form" action="index.html" method="post">
+
+        <div class="form__control-group">
+          <label class="form__label" for="title">Title</label>
+          <input class="form__input form__input--text" type="text" name="title" placeholder="Title" id="title">
+        </div>
+
+        <div class="form__control-group">
+          <label class="form__label" for="amount">Amount</label>
+          <input class="form__input form__input--amount" type="text" name="amount" placeholder="$0.00" id="amount">
+        </div>
+
+        <div class="form__control-group">
+          <label class="form__label" for="category">Category</label>
+          <input class="form__input form__input--category" type="text" name="category" placeholder="$0.00" id="category">
+        </div>
+
+        <div class="form__control-group">
+          <button class="form__btn" type="submit" name="button">Add Expense</button>
+        </div>
+      </form>
+
+      <div class="canvas"></div>
+    </section>
+  </body>
+</html>
